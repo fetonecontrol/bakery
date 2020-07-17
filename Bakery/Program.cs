@@ -10,7 +10,6 @@ namespace Bakery.Models
     { 
       try
       {  
-        Console.WriteLine("Would you like to Purchase Bread, Pastry, or both?");
         Console.WriteLine("If you would like to order Bread, please enter the number of Loaves you'd like.");
         Console.WriteLine("Bread is 5 Ruppees a loaf and buy 2, get 1 free!");
         string breadOrder = Console.ReadLine();
