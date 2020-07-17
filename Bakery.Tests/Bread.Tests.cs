@@ -6,7 +6,7 @@ using System;
 namespace Bakery.Tests
 {
   [TestClass]
-  public class SentenceTest
+  public class BreadTests
   {
 
     [TestMethod]
