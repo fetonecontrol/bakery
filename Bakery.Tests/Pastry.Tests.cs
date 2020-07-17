@@ -33,7 +33,7 @@ namespace Bakery.Tests
           price += 2;
         } 
       }
-      Assert.AreEqual(25, price);
+      Assert.AreEqual(54, price);
     }
   }
 }
