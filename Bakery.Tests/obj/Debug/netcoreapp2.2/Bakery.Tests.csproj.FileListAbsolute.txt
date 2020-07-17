@@ -1,0 +1,17 @@
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.csprojAssemblyReference.cache
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.csproj.CoreCompileInputs.cache
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.AssemblyInfoInputs.cache
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.AssemblyInfo.cs
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.Tests.deps.json
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.Tests.runtimeconfig.json
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.Tests.runtimeconfig.dev.json
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.Tests.dll
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.Tests.pdb
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.dll
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.pdb
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.csproj.CopyComplete
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.dll
+/Users/frederickernest/Desktop/Bakery/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.pdb

@@ -1,29 +1,14 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
-using FindAndReplace.Models;
+using Bakery.Models;
 using System;
 
 
-namespace FindAndReplace.Tests
+namespace Bakery.Tests
 {
   [TestClass]
-  public class WordsTest
+  public class BreadTests
   {
-
-    // [TestMethod]
-    // public void WordToReplace_StoreWordToReplace_WordToReplace()
-    // {
-    //   string UserInput = "Hello";
-    //   Words newWords = new Words(UserInput);
-    //   Assert.AreEqual("Hello", newWords.Replaced);
-    // }
-
-    [TestMethod]
-    public void Words_StoreWordToReplaceWith_WordToReplaceWith()
-    {
-      Words newWords = new Words("Hi", "Bye");
-      Assert.AreEqual("Hi", newWords.Replaced);
-      Assert.AreEqual("Bye", newWords.ReplacedWith);
-    }
+    
   }
 }
