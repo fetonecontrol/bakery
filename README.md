@@ -12,11 +12,9 @@ _Calulate Pastry Price Order Based on User Input_
 
 | Spec | Input | Output |
 | :-------------      | :------------- | :------------- |
-| ** 1. Skip constructor call for bread if nN is entered: How many loaves would you like? | "n" | "No Bread" |
-| ** 2. Skip constructor call for Pastries if nN is entered: How many Pastries would you like? | "n" | "No Pastries" |
-| ** 3. Else, call constructor for item and output price based on input: How many loaves would you like? | "5" | "Your total is 25 rupees" |
-| ** 4. Else, call constructor for item and output price based on input: How many Pastries would you like? | "5" | "Your total is 9 rupees" |
-| ** 5. Add price of Loaves and Pasries together if both are selected | "5 pastries, and 5 loaves" | "Your total is 34 rupees" |
+| ** 1. Call constructor for item and output price based on input: How many loaves would you like? | "5" | "Your total is 25 rupees" |
+| ** 2. Else, call constructor for item and output price based on input: How many Pastries would you like? | "5" | "Your total is 9 rupees" |
+| ** 3. Add price of Loaves and Pasries together if both values are more than zero, else, return one value plus zero | "5 pastries, and 5 loaves" | "Your total is 34 rupees" |
 
 ## Setup/Installation Requirements
 
