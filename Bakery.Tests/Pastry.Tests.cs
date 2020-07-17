@@ -19,17 +19,18 @@ namespace Bakery.Tests
     [TestMethod]
     public void Pastry_CalculatePastryOrderPrice_Pastry()
     {
-      int numberOfPastries = 31;
+      int numberOfPastries = 32;
       int price = 0; 
-      for (int i = 0; i < numberOfPastries; i++)
+      for (int i = 1; i <= numberOfPastries; i++)
       {
-        if ((i % 3) != 0)
-        {
-          price += 2;
-        }
-        else if ((i % 3) == 0)
+        Console.WriteLine(price);
+        if (i % 3 == 0)
         {
           price += 1;
+        }
+        else if (i % 3 != 0)
+        {
+          price += 2;
         } 
       }
       Assert.AreEqual(25, price);
