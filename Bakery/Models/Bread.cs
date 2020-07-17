@@ -16,7 +16,6 @@ namespace Bakery.Models
       int price = 0; 
         for (int i = 1; i <= NumberOfLoaves; i++)
         {
-          Console.WriteLine(price);
           if (i % 3 == 0)
           {
             price += 0;
