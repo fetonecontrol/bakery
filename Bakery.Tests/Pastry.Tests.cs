@@ -16,5 +16,10 @@ namespace Bakery.Tests
       Pastry pastryOrder = new Pastry(numberOfPastries);
       Assert.AreEqual(5, pastryOrder.NumberOfPastries);
     }
+    [TestMethod]
+    public void Pastry_CalculatePastryOrderPrice()
+    {
+      
+    }
   }
 }
