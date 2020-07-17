@@ -1,25 +1,26 @@
-# Find and Replace
+# Bakery
 
-#### _Word Replacer, 7/16/2020_
+#### _Bakery Calculator, 7/16/2020_
 
-#### By _**Hannah Beinstein and Frederick Ernest**_
+#### By _**Frederick Ernest**_
 
 ## Description
 
-_This program will take in a user inputted phrase, word to replace, and word to replace with, and will replace each instance of the first word with the replacement word._
+_Calulate Pastry Price Order Based on User Input_
 
-## Specs
+## Behaviors
 
 | Spec | Input | Output |
 | :-------------      | :------------- | :------------- |
-| ** 1. Program will take in user input and store it in variable | "Hello world" | -- |
-| ** 2. Program will take in user inputted word to replace and store it in variable| "Hello" | -- |
-| ** 3. Program will take in user inputted word to replace previous word and store it in variable| "Hi" | -- |
-| ** 4.  Program will replace all instances of first word with second word| "Hello" | "Hi" |
+| ** 1. Skip constructor call for bread if nN is entered: How many loaves would you like? | "n" | "No Bread" |
+| ** 2. Skip constructor call for Pastries if nN is entered: How many Pastries would you like? | "n" | "No Pastries" |
+| ** 3. Else, call constructor for item and output price based on input: How many loaves would you like? | "5" | "Your total is 25 rupees" |
+| ** 4. Else, call constructor for item and output price based on input: How many Pastries would you like? | "5" | "Your total is 9 rupees" |
+| ** 5. Add price of Loaves and Pasries together if both are selected | "5 pastries, and 5 loaves" | "Your total is 34 rupees" |
 
 ## Setup/Installation Requirements
 
-* _Clone or download this repository located at https://github.com/HBeinstein/FindAndReplace
+* _Clone or download this repository located at https://github.com/fetonecontrol/bakery
 * _Open in your code editor of choice_
 * _Run $ dotnet restore to download all dev dependencies_
 * _Run $ dotnet build to build project_
@@ -31,7 +32,7 @@ _No known bugs_
 
 ## Support and contact details
 
-_{Please contact us at with any known bugs or support issues.}_
+_{Please contact Frederick Ernest for any support issues.}_
 
 ## Technologies Used
 
@@ -40,4 +41,4 @@ _{Please contact us at with any known bugs or support issues.}_
 
 ### License
 
-*Copyright (c) 2020 **_Hannah Beinstein and Frederick Ernest MIT License_**
+*Copyright (c) 2020 **_Frederick Ernest MIT License_**

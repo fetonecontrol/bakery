@@ -1,21 +1,16 @@
 using System.Collections.Generic;
 using System;
 
-namespace FindAndReplace.Models
+namespace Bakery.Models
 {
-  public class Sentence
+  public class Bread
   {
+    public int NumberOfLoaves { get; set; }
 
-    public string SentenceInput { get; set; }
-
-    public Sentence(string input)
+    public Bread(int input)
     {
-      SentenceInput = input;
+      NumberOfLoaves = input;
     }
-    public string ReplaceIt()
-    {
-      string ModSentence = SentenceInput.Replace(Words.Replaced, Words.ReplacedWith);
-      return ModSentence;
-    }
+    
   }
 }

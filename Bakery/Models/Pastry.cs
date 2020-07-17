@@ -1,18 +1,33 @@
 using System.Collections.Generic;
 using System;
 
-namespace FindAndReplace.Models 
+namespace Bakery.Models 
 {
-  public class Words
+  public class Pastry
   {
-    public string Replaced { get; set; }
-    public string ReplacedWith { get; set; }
+    public int NumberOfPastries { get; set; }
 
-    public Words(string input, string input2)
+    public Pastry(int input)
     {
-      Replaced = input;
-      ReplacedWith = input2;
-    }
+      NumberOfPastries = input;
 
+    }    
+    public int PastryPrice()
+    {
+      int price = 0;
+      for (int i = 1; i <= NumberOfPastries; i++)
+      {
+        Console.WriteLine(price);
+        if (i % 3 == 0)
+        {
+          price += 1;
+        }
+        else if (i % 3 != 0)
+        {
+          price += 2;
+        } 
+      }
+      return price;
+    }
   }
 }

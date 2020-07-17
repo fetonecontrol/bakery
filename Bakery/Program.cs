@@ -1,26 +1,27 @@
 using System;
 using System.Collections.Generic;
-using FindAndReplace.Models;
+using Bakery.Models;
 
-namespace FindAndReplace.Models
+namespace Bakery.Models
 {
-  public class FindAndReplace
+  public class Bakery
   {
     public static void Main()
     {
-      Console.WriteLine("Enter a sentence");
-      string Sentence = Console.ReadLine();
-      Console.WriteLine("Enter a word to find");
-      string WordToFind = Console.ReadLine();
-      Console.WriteLine("Enter a word to replace the last word");
-      string WordToReplace = Console.ReadLine();
+      // Console.WriteLine("Would you like to Purchase Bread, Pastry, or both?");
+      // Console.WriteLine("If you would like to order Bread, please enter a number,");
+      // Console.WriteLine("Otherwise, enter N");
+      // string loaves = Console.ReadLine();
       
-      Sentence UserSentence = new Sentence(Sentence);
-      Words UserWords = new Words(WordToFind, WordToReplace);
+      // Bread loaves = new Bread(loaves);
+      // Console.WriteLine("If you would like to order Bread, please enter a number,");
+      // Console.WriteLine("Otherwise, enter N");
+      // string loaves = Console.ReadLine();
 
-      //string ModSentence = UserSentence.SentenceInput.Replace(UserWords.Replaced, UserWords.ReplacedWith);
-      string ModSentence = UserSentence.ReplaceIt();
-      Console.WriteLine(ModSentence);
+
+      // //string ModSentence = UserSentence.SentenceInput.Replace(UserWords.Replaced, UserWords.ReplacedWith);
+      // string ModSentence = UserSentence.ReplaceIt();
+      // Console.WriteLine(ModSentence);
       
     }
   }
