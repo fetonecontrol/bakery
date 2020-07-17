@@ -17,9 +17,16 @@ namespace Bakery.Tests
       Assert.AreEqual(5, pastryOrder.NumberOfPastries);
     }
     [TestMethod]
-    public void Pastry_CalculatePastryOrderPrice()
+    public void Pastry_CalculatePastryOrderPrice_Pastry()
     {
-      
+      int numberOfPastries = 16;
+      int price = 0; 
+      if ((numberOfPastries % 3) == 0)
+      {
+        int x = numberOfPastries / 3;
+        price = x * 5;
+      }
+      Assert.AreEqual(25, price);
     }
   }
 }
