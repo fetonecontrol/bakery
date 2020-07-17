@@ -19,7 +19,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void Bread_CalculateBreadOrderPrice_Bread()
     {
-      int numberOfLoaves = 9;
+      int numberOfLoaves = 3;
       int price = 0; 
       for (int i = 1; i <= numberOfLoaves; i++)
       {
