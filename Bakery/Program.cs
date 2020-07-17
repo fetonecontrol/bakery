@@ -29,13 +29,18 @@ namespace Bakery.Models
         Console.WriteLine("The Total Price of Your Order is: " + " " + total.OrderTotal + " " + "Ruppees");
         Console.WriteLine("Would You Like to Place Another Order? Enter Y or N");
         string cont = Console.ReadLine();
-        if (cont != "Y" || cont != "N")
+        if (cont == "Y")
         {
-          Console.WriteLine("Invalid Selection, Please Choose Y or N -CaSe-SeNSaTIVe- ");
+          Console.WriteLine("Here We Go Again!");
+          Main();
         }
         else if (cont == "N")
         {
           Console.WriteLine("Thanks for Stopping By! There's Monsters Out There, Travel Safe!");
+        }
+        else if (cont != "Y" && cont != "N")
+        {
+          Console.WriteLine("Invalid Selection, Please Choose Y or N -CaSe-SeNSaTIVe- ");
         }
       }
       catch (Exception e)
