@@ -17,23 +17,11 @@ namespace Bakery.Tests
       Assert.AreEqual(5, pastryOrder.NumberOfPastries);
     }
     [TestMethod]
-    public void Pastry_CalculatePastryOrderPrice_Pastry()
+    public void Pastry_CalculatePastryOrderPrice_PastryPrice()
     {
       int numberOfPastries = 32;
-      int price = 0; 
-      for (int i = 1; i <= numberOfPastries; i++)
-      {
-        Console.WriteLine(price);
-        if (i % 3 == 0)
-        {
-          price += 1;
-        }
-        else if (i % 3 != 0)
-        {
-          price += 2;
-        } 
-      }
-      Assert.AreEqual(54, price);
+      Pastry pastryOrder = new Pastry(numberOfPastries);
+      Assert.AreEqual(54, pastryOrder.PastryPrice());
     }
   }
 }
