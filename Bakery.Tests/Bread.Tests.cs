@@ -17,25 +17,14 @@ namespace Bakery.Tests
       Assert.AreEqual(5, breadOrder.NumberOfLoaves);
     }
     [TestMethod]
-    public void Bread_CalculateBreadOrderPrice_Bread()
+    public void Bread_CalculatePastryOrderPrice_BreadPrice()
     {
-      int numberOfLoaves = 3;
-      int price = 0; 
-      for (int i = 1; i <= numberOfLoaves; i++)
-      {
-        Console.WriteLine(price);
-        if (i % 3 == 0)
-        {
-          price += 0;
-        }
-        else if (i % 3 != 0)
-        {
-          price += 5;
-        } 
-      }
-      Assert.AreEqual(10, price);
+      int loaves = 32;
+      Bread BreadOrder = new Bread(loaves);
+      Assert.AreEqual(110, BreadOrder.BreadPrice());
     }
     
   }
 }
+
 
